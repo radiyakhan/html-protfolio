@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PROTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02f4fa6a76.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="logo1/logoo.jpg" class="logo"> 
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#protfolio">Protfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+               </ul>
+               <div class="ad"><i class="fa-solid fa-bars" onclick="openmenu()"></i></div>
+            </nav>
+            <div class = "header-text">
+                <p>Learning web 0.3 , AI , Metaverse</p>
+                <h1>Hi, I'm <span>Radiya Khan</span><br> from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+<!------------- about ----------->
+    <div id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1><i><b>About Me</b></i></h1>
+                    <p>"Hello! I'm Radiya Khan, 19 years old. I am currently learning and enhancing my skills in HTML, CSS, TypeScript, JavaScript through GIAIC resources. Although, I don't have formal experience yet, i am working on my personal projects. I'm excited to continue learning, exploring new technologies, and taking on new challenges. Welcome to my portfolio, where I share my journey and projects!"</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"><i><b>Skills</b></i></p>
+                        <p class="tab-links" onclick="opentab('education')"><i><b>Education</b></i></p>
+                        <p class="tab-links" onclick="opentab('projects')"><i><b>Projects</b></i></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><strong>Typescript</strong></span><br>I've make some node projects.</li>
+                            <li><span><strong>HTML,CSS</strong></span><br>I've make some practice projects and this protfolio.</li>
+                            <li><span><strong>Ms Word</strong></span><br>Not a professional work but make some mini projects for my Foundation.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><strong>2024-Current</strong></span><br>Learning Next.js at GIAIC.</li>
+                            <li><span><strong>2024</strong></span><br>Learning Typescript and JavaScript from GIAIC.</li>
+                            <li><span><strong>2022-2024</strong></span><br>Complete HSC.</li>
+                            <li><span><strong>2020-2022</strong></span><br>Complete SSC.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span><strong>Node Projects</strong></span><br></li>
+                            <ol><li>Cli Calculator</li>
+                                <li>Cli Number Guessing Game</li>
+                                <li>Atm</li>
+                                <li>Todo-List</li>
+                                <li>Currency Converter</li>
+                                <li>Word Counter</li>
+                                <li>Student Management</li>
+                                <li>Adventure game</li>
+                                <li>Quiz System</li>
+                                <li>Countdown Timer</li>
+                                <li>Resume Builder</li>
+                            </ol>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------- services ----------->
+<div id="services">
+    <div class="container"></div>
+    <h1><i><b>My Services</b></i></h1>
+    <div class="services-list">  
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2><i>Web Design</i></h2>
+            <p>As a budding web desinger, I am currently honing with my skills in creating visually appealing and functional websites using HTML , CSS and JavaScript. While I'm still in the process of mastering my craft, I'm excited to offer my servises to clintes who are looking for a fresh prespective and willingness to learn and grow together.Please note that my servises are still in development , and I'm not yet offering fully professional-level design experties</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-youtube"></i>
+            <h2><i>Making Thumbnail</i></h2>
+            <p>I can design a thumbnail for your youtube shorts and videos and also for the instagram reels</p>
+        </div>
+    </div>     
+</div>
+<!-- ------------protfolio---------- -->
+<div id="protfolio">
+    <div class="container">
+        <h1><i><b>My Work</b></i></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pic1/image.jpg">
+                <div class="layer">
+                    <h3>Personal Projects</h3>
+                    <p>Developed 11 projects at GIAIC, and advanced TypeScript concepts. By completing these projects, I demonstrated my ability to apply theoretical knowledge to practical problems, think critically, and develop efficient, scalable solutions using TypeScript</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pic/img.jpeg">
+                <div class="layer">
+                    <h3>Coding challenges</h3>
+                    <p>Achieved an impressive feat by completing 45 TypeScript assignments in just 20 days, averaging 3 assignments per day. This extreme coding challenge pushed me to my limits, requiring intense focus, rapid problem-solving, and exceptional productivity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1><i><b>Contact Me</b></i></h1>
+                <p><i id="icon" class="fa-solid fa-envelope"></i> <i>radiyakhan59@gmail.com</i></p>
+                <p><i id="icon" class="fa-solid fa-phone"></i> <i>0328-2864662</i></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100083278800324&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/radiya._.345?igsh=NzQ5MTZnMTNxN2lv"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/radiya-khan-133b112ba"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/radiyakhan"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="radiya khan resume cv .pdf" download class="btn btn2">Download CV</i></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2"><b>Submit</b></button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywrite">
+        <p>Thankyou for Visiting💘 <br>Made by Radiya Khan💖</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>        
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6ureswS-0HROhSYxT3Cln29ktVclTaDIP-YsXFdxYHm5VyWocT2LD_UmhfflQbQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
